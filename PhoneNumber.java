@@ -3,19 +3,19 @@ package demo;
 import java.util.List;
 import java.util.ArrayList;
 
-// Lớp PhoneNumber
+
 public class PhoneNumber {
     private String name;
     private List<String> phoneNumbers;
 
-    // Constructor
+ 
     public PhoneNumber(String name) {
         this.name = name;
         this.phoneNumbers = new ArrayList<>();
 
     }
 
-    // Getter và Setter
+ 
     public String getName() {
         return name;
     }
