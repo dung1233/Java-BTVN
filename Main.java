@@ -19,7 +19,7 @@ public class Main {
         System.out.println("\nDanh sách sau khi sắp xếp:");
         printPhoneList(phoneBook);
 
-        // Tìm kiếm và in thông tin
+        
         PhoneNumber searchResult = phoneBook.searchPhone("Alice");
         if (searchResult != null) {
             System.out.println("\nThông tin người dùng (Alice):");
@@ -30,7 +30,7 @@ public class Main {
         }
     }
 
-    // Phương thức in danh sách
+    
     private static void printPhoneList(PhoneBook phoneBook) {
         for (PhoneNumber contact : phoneBook.getPhoneList()) {
             System.out.println("Name: " + contact.getName() + ", Phone Numbers: " + contact.getPhoneNumbers());
